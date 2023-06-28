@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tello__HW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="trello">
+        <div class="trello__header">
+            <input type="text" class="trello__inp">
+            <button class="trello__btn">Add task</button>
+            <div class="user__avatars">
+                <img src="Avatars/first_avatar_jpeg.jpg" alt="First avatar" width="35px" height="35px" draggable="true">
+                <img src="Avatars/second_avatar_jpeg.jpg" alt="Second avatars" width="35px" height="35px" draggable="true">
+                <img src="Avatars/third_avatar_jpeg.jpg" alt="Third avatar" width="35px" height="35px" draggable="true">
+                <img src="Avatars/fourth_avatar_jpeg.jpg" alt="Fourth avatar" width="35px" height="35px" draggable="true" id="extraAvatar" class="hide">
+            </div>
+            <button class="avatarBtn">Add developer</button>
+        </div>
+        <div class="trello__body">
+            <div class="trello__sprint">
+                <div id="sprint">Sprint</div>
+                <div class="trello__task" draggable="true" contenteditable="true">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni vel tenetur porro, saepe quod enim! Enim magnam dolore, explicabo debitis rerum obcaecati neque, ullam aperiam temporibus voluptatibus placeat recusandae numquam? <span class="trello__removeTaskBtn">x</span>
+                </div>
+            </div>
+            <div class="trello__progress">
+                <div id="progress">In progress</div>
+            </div>
+            <div class="trello__review">
+                <div id="review">Review</div>
+            </div>
+            <div class="trello__done">
+                <div id="done">Done</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

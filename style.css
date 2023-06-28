@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(Avatars/backgroundImg.jpeg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trello {
+  width: 80%;
+  margin: auto;
+  background: whitesmoke;
+}
+.trello__header {
+  text-align: center;
+  padding: 20px;
+  background: black;
+  position: relative;
+}
+.trello__body {
+  display: flex;
+  justify-content: space-between;
+}
+.trello__body > div {
+  width: 250px;
+  border: 1px solid black;
+}
+#sprint {
+  background: green;
+  text-align: center;
+  padding: 10px 0px;
+}
+#progress {
+  background: aqua;
+  text-align: center;
+  padding: 10px 0px;
+}
+#review {
+  background: yellow;
+  text-align: center;
+  padding: 10px 0px;
+}
+#done {
+  background: red;
+  text-align: center;
+  padding: 10px 0px;
+}
+.trello__task {
+  position: relative;
+  padding: 5px;
+}
+.trello__removeTaskBtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: red;
+  cursor: pointer;
+}
+.user__avatars {
+  position: absolute;
+  right: 150px;
+  top: 0px;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user__avatars > img {
+  margin-right: 7px;
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+
+.avatarBtn {
+  position: absolute;
+  right: 40px;
+  cursor: pointer;
+}
